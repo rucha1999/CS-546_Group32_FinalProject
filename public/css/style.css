@@ -68,7 +68,7 @@ footer a {
 }
 form {
     height: 100%;
-    display: : flex;
+    display: flex;
     flex-direction : column;
     align-items:center;
     justify-content: center;
@@ -122,7 +122,7 @@ label {
     background: var(--linear-grad);
     transition: 0.3s;
 }
-input: :focus ~ label {
+input :focus ~ label {
     width: 100%;
 
 }
@@ -133,7 +133,7 @@ a {
     text-decoration: none;
     margin: 15px 0px;
 }
- 
+
 a forgot {
     padding-bottom: 3px;
     border-bottom: 2px solid #eee;
@@ -150,6 +150,16 @@ button {
     text-transform: uppercase;
 }
 .form-container.sign-in-container[type="submit"] {
+    border-radius: 20px;
+    border: 1px solid var(--grad-clr1);
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 12px 45px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.form-container.sign-up-container[type="submit"] {
     border-radius: 20px;
     border: 1px solid var(--grad-clr1);
     color: #fff;
