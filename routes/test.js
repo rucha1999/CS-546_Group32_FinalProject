@@ -13,6 +13,4 @@ router.route("/example_page").get(async (req, res) => {
     res.render('example_page', {title: "Example Title"});
 });
 
-
-
 module.exports = router;
